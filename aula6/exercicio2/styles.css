@@ -1,0 +1,9 @@
+#paragrafo {
+    text-decoration: underline;
+}
+#bloco{
+    font-weight: bold;
+}
+.destaque {
+    background: rgb(147,219,112);
+}

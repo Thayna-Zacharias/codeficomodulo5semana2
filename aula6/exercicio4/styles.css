@@ -1,0 +1,13 @@
+  p::first-letter{
+    font-size: 32px;
+  }
+  p::first-line {
+    font-weight:bold;
+  }
+  div a:first-child::after{
+    width: 16px;
+    height: 16px;
+    background-color:black;
+    content:'1';
+    display:block;
+  }
