@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    background-color: #000;
+    color:#ffff;
+    width:100%;
+    overflow-x: hidden;
+}
+
+#hcb {
+    font-weight: 600;
+    background-color: #40b41d;
+    margin: 0;
+    padding: 25px 0;
+    color: #ffff;
+    text-align: center;
+    box-shadow: -1px -1px 52px -9px rgba(31, 143, 3, 0.7);
+}
+
+.menu {
+    width: 10vw;
+    float: left;
+    margin-left: 15px;
+}
+
+.menu ul {
+    border: 1px solid black;
+    width: 100%;
+    list-style: none;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.menu ul li {
+    display: block;
+    width: 100%;
+    padding-top: 10px
+}
+
+.menu ul li a {
+    color:#ffff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu ul li a[href="#htx"] {
+    background-color: #5ed739;
+}
+
+.menu ul li a[href="#htb"] {
+    background-color: #65ea3d;
+}
+
+.menu ul li a[href="#pnl"] {
+    background-color: #409526;
+}
+
+
+.texto {
+    width: 82vw;
+    float: right;
+}
+
+.tabela {
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+
+.tabela #htb {
+    text-align: center;
+}
+
+.tabela table {
+    margin: 0 auto;
+    border: 2px solid #ffff;
+    border-collapse: collapse;
+}
+
+.tabela th,
+.tabela td {
+    padding: 5px;
+    transition:500ms ease all;
+}
+.tabela th:hover,
+.tabela td:hover {
+    background-color: #5ed739;
+    transition:500ms ease all;
+}
+
+
+.tabela th:first-child,
+.tabela td:first-child {
+    width: 80px;
+    text-align: left;
+}
+
+.tabela th:nth-child(2),
+.tabela td:nth-child(2) {
+    width: 500px;
+    text-align: left;
+}
+
+#pnl {
+    float: left;
+    clear: both;
+    width:100%;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+button {
+    background-color: #ffff;
+    box-shadow: -1px -1px 52px -9px rgba(31, 143, 3, 0.7);
+    border:0;
+}
+
+.rodape {
+    float: left;
+    clear: both;
+    width:102%;
+    left: 0;
+    bottom:0;
+    font-weight: 600;
+    background-color: #40b41d;
+    margin: 0;
+    padding: 25px 0;
+    text-align: center;
+    box-shadow: -1px -1px 52px -9px rgba(31, 143, 3, 0.7);
+}
+.rodape a {
+    color: #ffff;
+    text-decoration: none;
+}
